@@ -1,0 +1,195 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
+	package
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:4:5-51
+	xmlns:android
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:12:5-90
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-74
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:12:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:13:2-81
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-68
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:13:19-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:14:2-78
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-81
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:14:19-75
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:15:2-72
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-76
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:15:19-70
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:16:2-72
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-76
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:16:19-70
+uses-permission#android.permission.INTERNET
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:17:2-63
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-67
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:17:19-61
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:18:2-65
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-69
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-69
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:18:19-63
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:19:2-63
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-67
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:19:19-61
+application
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:21:5-72:19
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-26:19
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-26:19
+	android:label
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:24:9-41
+	android:icon
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:23:9-38
+		REJECTED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:9-45
+	android:allowBackup
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:26:9-40
+	tools:replace
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:25:9-37
+activity#com.mHealthDroid.mhealthapp.MainActivity
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:27:9-35:20
+	android:label
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:29:13-45
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:28:13-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:33:27-74
+activity#com.mHealthDroid.mhealthapp.DeviceListActivity
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:36:10-39:21
+	android:label
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:37:19-56
+	android:theme
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:38:20-74
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:36:20-81
+activity#com.mHealthDroid.mhealthapp.TypeDeviceActivity
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:40:10-43:21
+	android:label
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:41:19-61
+	android:theme
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:42:19-73
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:40:20-81
+activity#com.mHealthDroid.mhealthapp.DeviceMenuActivity
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:44:10-47:21
+	android:label
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:45:19-60
+	android:theme
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:46:20-74
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:44:20-81
+activity#com.mHealthDroid.mhealthapp.ConfirmationActivity
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:48:10-51:21
+	android:label
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:49:19-61
+	android:theme
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:50:19-73
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:48:20-83
+activity#com.mHealthDroid.mhealthapp.SensorListActivity
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:52:10-55:21
+	android:label
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:53:19-60
+	android:theme
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:54:20-74
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:52:20-81
+activity#com.mHealthDroid.mhealthapp.DeviceConfigurationActivity
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:56:10-59:21
+	android:label
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:57:19-62
+	android:theme
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:58:20-74
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:56:20-90
+activity#com.mHealthDroid.mhealthapp.GraphConfigurationActivity
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:60:10-63:21
+	android:label
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:61:19-62
+	android:theme
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:62:20-74
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:60:20-89
+activity#com.mHealthDroid.mhealthapp.StartVisualizationActivity
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:64:10-67:21
+	android:label
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:65:19-57
+	android:theme
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:66:20-74
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:64:20-89
+activity#com.mHealthDroid.mhealthapp.YoutubeActivity
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:68:10-69:21
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:68:20-78
+receiver#systemManager.services.ScheduledTask
+ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:71:10-73
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:9-73
+MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:9-73
+	android:name
+		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:71:20-71
