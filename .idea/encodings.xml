@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/mHealthDroid/mhealthapp/VisualizationFragment.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/mhealthdroid/src/main/java/communicationManager/datareceiver/DeviceMobile.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/mhealthdroidlib/src/main/java/communicationManager/datareceiver/DeviceMobile.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/mhealthdroidlib/src/main/java/dataprocessingManager/DataProcessingManager.java" charset="ISO-8859-1" />
   </component>
 </project>

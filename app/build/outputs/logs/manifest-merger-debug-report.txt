@@ -4,7 +4,15 @@ ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManife
 INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
 INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
 INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3ddddeeaa0d20e31635cdcb9d64312cc/AndroidManifest.xml:17:1-22:12
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/260a82d9072f5dbd2421cfdb9307e47e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8bf8f25e839c4a5a91faecaf65ab5029/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5ea5fa15bbf94e8de134246248e540fe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/6905fa2d8e106521f7739d113887436e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d6d1b5ea57d7c67998f7f1dea3348cb5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/32202a21415b5804a148abbe1b536039/AndroidManifest.xml:17:1-22:12
 INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
 INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
 INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:2:1-74:12
@@ -28,8 +36,24 @@ uses-sdk
 ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:8:5-10:41
 INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:8:5-10:41
 INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:8:5-10:41
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3ddddeeaa0d20e31635cdcb9d64312cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3ddddeeaa0d20e31635cdcb9d64312cc/AndroidManifest.xml:20:5-44
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/260a82d9072f5dbd2421cfdb9307e47e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/260a82d9072f5dbd2421cfdb9307e47e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8bf8f25e839c4a5a91faecaf65ab5029/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8bf8f25e839c4a5a91faecaf65ab5029/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5ea5fa15bbf94e8de134246248e540fe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5ea5fa15bbf94e8de134246248e540fe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/6905fa2d8e106521f7739d113887436e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/6905fa2d8e106521f7739d113887436e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d6d1b5ea57d7c67998f7f1dea3348cb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d6d1b5ea57d7c67998f7f1dea3348cb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/32202a21415b5804a148abbe1b536039/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/jpbferreira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/32202a21415b5804a148abbe1b536039/AndroidManifest.xml:20:5-44
 INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:8:5-10:41
 INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:8:5-10:41
 	android:targetSdkVersion
@@ -42,61 +66,61 @@ INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidMan
 		INJECTED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH_ADMIN
 ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:12:5-90
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-74
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-74
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-74
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-74
 	android:name
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:12:22-71
 uses-permission#android.permission.BLUETOOTH
 ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:13:2-81
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-68
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-68
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-68
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-68
 	android:name
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:13:19-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:14:2-78
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-81
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-81
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-81
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-81
 	android:name
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:14:19-75
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:15:2-72
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-76
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-76
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-76
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-76
 	android:name
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:15:19-70
 uses-permission#android.permission.CHANGE_WIFI_STATE
 ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:16:2-72
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-76
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-76
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-76
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-76
 	android:name
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:16:19-70
 uses-permission#android.permission.INTERNET
 ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:17:2-63
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-67
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-67
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-67
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-67
 	android:name
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:17:19-61
 uses-permission#android.permission.CALL_PHONE
 ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:18:2-65
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-69
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-69
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-69
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-69
 	android:name
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:18:19-63
 uses-permission#android.permission.SEND_SMS
 ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:19:2-63
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-67
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-67
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-67
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-67
 	android:name
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:19:19-61
 application
 ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:21:5-72:19
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-26:19
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-26:19
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-26:19
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-26:19
 	android:label
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:24:9-41
 	android:icon
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:23:9-38
-		REJECTED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:9-45
+		REJECTED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:9-45
 	android:allowBackup
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:22:9-35
 	android:theme
@@ -189,7 +213,7 @@ ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManife
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:68:20-78
 receiver#systemManager.services.ScheduledTask
 ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:71:10-73
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:9-73
-MERGED from [:mhealthdroid] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroid/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:9-73
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:9-73
+MERGED from [:mhealthdroidlib] /home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:9-73
 	android:name
 		ADDED from /home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/AndroidManifest.xml:71:20-71

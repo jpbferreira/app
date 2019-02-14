@@ -18,7 +18,7 @@ import java.util.Set;
 
 import com.mHealthDroid.mhealthpp.R;
 
-import weka.classifiers.Classifier;
+//import weka.classifiers.Classifier;
 
 import communicationManager.CommunicationManager;
 import communicationManager.dataStructure.ObjectData.SensorType;
@@ -26,6 +26,7 @@ import dataprocessingManager.DataProcessingManager;
 import dataprocessingManager.featuresExtraction.FeaturesExtraction.FeatureType;
 
 import android.app.AlertDialog;
+import android.app.Fragment;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -36,7 +37,6 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.util.Pair;
 import android.view.LayoutInflater;
@@ -51,7 +51,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class ActivityRecognitionFragment extends Fragment{
+public class ActivityRecognitionFragment extends Fragment {
 
 	
 	public CommunicationManager cm;
@@ -191,7 +191,7 @@ public class ActivityRecognitionFragment extends Fragment{
 					
 					try{
 						ObjectInputStream ois=new ObjectInputStream(new FileInputStream(Environment.getExternalStorageDirectory()+"/ActivityDetector/modeloentrenado.model")); 
-						dpm.loadModel((Classifier)ois.readObject()); 
+//						dpm.loadModel((Classifier)ois.readObject());
 						ois.close();
 					}
 					catch (Exception e) {

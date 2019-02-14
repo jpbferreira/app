@@ -88,10 +88,10 @@ public class VisualizationFragment extends Fragment {
 		vm.addGraph(nameGraph, GraphType.LINE, getActivity());
 		vm.setScalable(nameGraph, true);
 		vm.setScrollable(nameGraph, true);
-		vm.getGraphStyle(nameGraph).setNumHorizontalLabels(3);
-		vm.getGraphStyle(nameGraph).setNumVerticalLabels(4);
-		vm.getGraphStyle(nameGraph).setVerticalLabelsWidth(50);
-		vm.getGraphStyle(nameGraph).setTextSize(20f);
+//		vm.getGraphStyle(nameGraph).setNumHorizontalLabels(3);
+//		vm.getGraphStyle(nameGraph).setNumVerticalLabels(4);
+//		vm.getGraphStyle(nameGraph).setVerticalLabelsWidth(50);
+//		vm.getGraphStyle(nameGraph).setTextSize(20f);
 		viewPort=200;
 		vm.setViewPort(nameGraph, 0, viewPort);
 		isOnline = false;
@@ -118,7 +118,7 @@ public class VisualizationFragment extends Fragment {
 		
 //		numSensors = myprefs.getInt(NUM_SENSORS, 4);
 //		for(int i=0; i<numSensors; i++){
-//			Log.d("sensores", "sensor añadido: "+myprefs.getString(SENSOR+i, ""));
+//			Log.d("sensores", "sensor anadido: "+myprefs.getString(SENSOR+i, ""));
 //			sensorsSelected.add(myprefs.getString(SENSOR+i, ""));
 //		}
 		
@@ -128,21 +128,21 @@ public class VisualizationFragment extends Fragment {
 			vm.setManualYAxis(nameGraph, setYValues);
 			vm.setManualYAxisBounds(nameGraph, maxY, minY);
 		}
-		if(showLegend){
-			vm.setShowLegend(nameGraph, showLegend);
-			switch(align){
-			case 1:
-				vm.setLegendAlign(nameGraph, LegendAlign.TOP);
-				break;
-			case 2:
-				vm.setLegendAlign(nameGraph, LegendAlign.MIDDLE);
-				break;
-			case 3:
-				vm.setLegendAlign(nameGraph, LegendAlign.BOTTOM);
-				break;
-			}
-			
-		}
+//		if(showLegend){
+//			vm.setShowLegend(nameGraph, showLegend);
+//			switch(align){
+//			case 1:
+//				vm.setLegendAlign(nameGraph, LegendAlign.TOP);
+//				break;
+//			case 2:
+//				vm.setLegendAlign(nameGraph, LegendAlign.MIDDLE);
+//				break;
+//			case 3:
+//				vm.setLegendAlign(nameGraph, LegendAlign.BOTTOM);
+//				break;
+//			}
+//
+//		}
 		
 		
 		LinearLayout mLinearLayout = (LinearLayout) LayoutInflater.from(getActivity()).inflate(R.layout.visualization, null);
@@ -225,7 +225,7 @@ public class VisualizationFragment extends Fragment {
 					b.setText(R.string.start);
 					vm.stopVisualizationOnline(nameGraph, deviceSelected);
 					Fragment visualizationFragment = new VisualizationFragment();
-					getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container, visualizationFragment).commit();
+//					getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container, visualizationFragment).commit();
 				}
 			}
 		});
@@ -280,19 +280,19 @@ public class VisualizationFragment extends Fragment {
 					if(showLegend)
 						align = data.getExtras().getInt(ALIGN);			
 					if(isOnline){
-						if(showLegend){
-							switch(align){
-								case 1:
-									vm.setLegendAlign(nameGraph, LegendAlign.TOP);
-								break;
-								case 2:
-									vm.setLegendAlign(nameGraph, LegendAlign.MIDDLE);
-								break;
-								case 3:
-									vm.setLegendAlign(nameGraph, LegendAlign.BOTTOM);
-								break;
-							}
-						}
+//						if(showLegend){
+//							switch(align){
+//								case 1:
+//									vm.setLegendAlign(nameGraph, LegendAlign.TOP);
+//								break;
+//								case 2:
+//									vm.setLegendAlign(nameGraph, LegendAlign.MIDDLE);
+//								break;
+//								case 3:
+//									vm.setLegendAlign(nameGraph, LegendAlign.BOTTOM);
+//								break;
+//							}
+//						}
 						vm.setShowLegend(nameGraph, showLegend);
 					}
 				}

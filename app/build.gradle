@@ -17,8 +17,21 @@ android {
         }
     }
 
+    packagingOptions {
+        exclude 'META-INF/*'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+
 }
 
 dependencies {
-    implementation project(path: ':mhealthdroid')
+    implementation project(path: ':mhealthdroidlib')
+    api group: 'com.android.support', name: 'support-fragment', version: '27.1.1'
+//    api group: 'org.apache.commons', name: 'commons-math', version: '2.2'
 }

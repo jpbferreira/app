@@ -16,6 +16,10 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/type_device.xml"
     },
     {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_confimation.xml.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/confimation.xml"
     },
@@ -28,12 +32,20 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/button_menus.xml"
     },
     {
-        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_device_name.xml.flat",
-        "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/device_name.xml"
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_waist.png.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/waist.png"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_device_name.xml.flat",
+        "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/device_name.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_button_border2.xml.flat",
@@ -56,6 +68,10 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/stop_selector.xml"
     },
     {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_graph_configuration.xml.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/graph_configuration.xml"
     },
@@ -72,12 +88,16 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/logo.png"
     },
     {
-        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_plus248.png.flat",
-        "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/plus248.png"
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_notifications.xml.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/notifications.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_plus248.png.flat",
+        "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/plus248.png"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_walking.png.flat",
@@ -104,8 +124,20 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/frontal.png"
     },
     {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable/notification_bg_low.xml"
+    },
+    {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_device_connectivity.xml.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/device_connectivity.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_button_start.xml.flat",
@@ -128,6 +160,10 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/layout/notification_action.xml"
+    },
+    {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher.png.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable-ldpi/ic_launcher.png"
     },
@@ -136,8 +172,16 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/spinner_view.xml"
     },
     {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_standing.png.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/standing.png"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_remotestorage.xml.flat",
@@ -168,6 +212,18 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/climbing.png"
     },
     {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_notification_template_custom_big.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/layout/notification_template_custom_big.xml"
+    },
+    {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
@@ -176,12 +232,20 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/jump.png"
     },
     {
-        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_knees.png.flat",
-        "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/knees.png"
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_whitecircle24.png.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/whitecircle24.png"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_knees.png.flat",
+        "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/knees.png"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_jogging.png.flat",
@@ -192,8 +256,28 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/devices_menu.xml"
     },
     {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_toggle_button.xml.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/toggle_button.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/raw_activities.arff.flat",
@@ -208,6 +292,26 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/lying.png"
     },
     {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_noactivity.png.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/noactivity.png"
     },
@@ -216,12 +320,20 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/visualization.xml"
     },
     {
-        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_device_configuration.xml.flat",
-        "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/device_configuration.xml"
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable_button_border3.xml.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/drawable/button_border3.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_device_configuration.xml.flat",
+        "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/device_configuration.xml"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_device_list.xml.flat",
@@ -232,11 +344,23 @@
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/sensors_list.xml"
     },
     {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_activity_recognition.xml.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/activity_recognition.xml"
     },
     {
         "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_connect.xml.flat",
         "source": "/home/jpbferreira/Documentos/IC/mHealthApp/app/src/main/res/layout/connect.xml"
+    },
+    {
+        "merged": "/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
+        "source": "/home/jpbferreira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d49c888f058662bff9a07f9502aae7de/res/layout/notification_template_icon_group.xml"
     }
 ]

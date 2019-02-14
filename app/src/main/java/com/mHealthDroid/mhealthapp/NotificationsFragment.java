@@ -5,7 +5,8 @@ import java.util.Calendar;
 import com.mHealthDroid.mhealthpp.R;
 
 import systemManager.SystemManager;
-import android.support.v4.app.Fragment;
+
+import android.app.Fragment;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.Notification;
@@ -123,26 +124,26 @@ public class NotificationsFragment extends Fragment {
 						sm.sendSimpleNotification(title, notificationText, 0, R.drawable.ic_launcher, getActivity());
 					}
 					
-					if(launchYoutube && !timeSet){
-						//Complex Notification
-						if(soundType.equals("None")){
-							Intent guideIntent = new Intent(getActivity(), YoutubeActivity.class);
-							PendingIntent pendingIntent = PendingIntent.getActivity(getActivity(), 0, guideIntent, 0);
-							int flags = Notification.FLAG_AUTO_CANCEL;
-							sm.sendComplexNotification(title, notificationText, 1, R.drawable.ic_launcher, flags,
-							pendingIntent, getActivity());							
-						}
-						
-						//Custom Notification
-						else{
-							
-							Intent guideIntent = new Intent(getActivity(), YoutubeActivity.class);
-							PendingIntent pendingIntent = PendingIntent.getActivity(getActivity(), 0, guideIntent, 0);
-							int flags = Notification.FLAG_AUTO_CANCEL;
-							sm.sendComplexNotificationCustomSound(title,notificationText, 2, R.drawable.ic_launcher,
-									flags, pendingIntent, soundUri, getActivity());
-						}	
-					}
+//					if(launchYoutube && !timeSet){
+//						//Complex Notification
+//						if(soundType.equals("None")){
+//							Intent guideIntent = new Intent(getActivity(), YoutubeActivity.class);
+//							PendingIntent pendingIntent = PendingIntent.getActivity(getActivity(), 0, guideIntent, 0);
+//							int flags = Notification.FLAG_AUTO_CANCEL;
+//							sm.sendComplexNotification(title, notificationText, 1, R.drawable.ic_launcher, flags,
+//							pendingIntent, getActivity());
+//						}
+//
+//						//Custom Notification
+//						else{
+//
+//							Intent guideIntent = new Intent(getActivity(), YoutubeActivity.class);
+//							PendingIntent pendingIntent = PendingIntent.getActivity(getActivity(), 0, guideIntent, 0);
+//							int flags = Notification.FLAG_AUTO_CANCEL;
+//							sm.sendComplexNotificationCustomSound(title,notificationText, 2, R.drawable.ic_launcher,
+//									flags, pendingIntent, soundUri, getActivity());
+//						}
+//					}
 					
 					//Custom Notification
 					if(!launchYoutube && !timeSet && !soundType.equals("None")){
@@ -171,25 +172,25 @@ public class NotificationsFragment extends Fragment {
 									notificationDate);
 						}
 						
-						if(launchYoutube){
-							//Complex Scheduled Notification
-							if(soundType.equals("None")){
-								Intent guideIntent = new Intent(getActivity(), YoutubeActivity.class);
-								PendingIntent pendingIntent = PendingIntent.getActivity(getActivity(), 0, guideIntent, 0);
-								int flags = Notification.FLAG_AUTO_CANCEL;
-								sm.scheduledComplexNotification(title, notificationText, 5, R.drawable.ic_launcher, flags,
-										pendingIntent, getActivity(), notificationDate);
-							}
-							
-							//Custom Scheduled Notification
-							else{		
-								Intent guideIntent = new Intent(getActivity(), YoutubeActivity.class);
-								PendingIntent pendingIntent = PendingIntent.getActivity(getActivity(), 0, guideIntent, 0);
-								int flags = Notification.FLAG_AUTO_CANCEL;
-								sm.scheduledComplexNotificationCustomSound(title,notificationText, 6, R.drawable.ic_launcher,
-										flags, pendingIntent, soundUri, getActivity(), notificationDate);
-							}	
-						}
+//						if(launchYoutube){
+//							//Complex Scheduled Notification
+//							if(soundType.equals("None")){
+//								Intent guideIntent = new Intent(getActivity(), YoutubeActivity.class);
+//								PendingIntent pendingIntent = PendingIntent.getActivity(getActivity(), 0, guideIntent, 0);
+//								int flags = Notification.FLAG_AUTO_CANCEL;
+//								sm.scheduledComplexNotification(title, notificationText, 5, R.drawable.ic_launcher, flags,
+//										pendingIntent, getActivity(), notificationDate);
+//							}
+//
+//							//Custom Scheduled Notification
+//							else{
+//								Intent guideIntent = new Intent(getActivity(), YoutubeActivity.class);
+//								PendingIntent pendingIntent = PendingIntent.getActivity(getActivity(), 0, guideIntent, 0);
+//								int flags = Notification.FLAG_AUTO_CANCEL;
+//								sm.scheduledComplexNotificationCustomSound(title,notificationText, 6, R.drawable.ic_launcher,
+//										flags, pendingIntent, soundUri, getActivity(), notificationDate);
+//							}
+//						}
 						
 						//Custom Scheduled Notification
 						if(!launchYoutube &&  !soundType.equals("None")){

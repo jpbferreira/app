@@ -10,6 +10,7 @@ import systemManager.SystemManager;
 import communicationManager.CommunicationManager;
 
 import android.app.ActionBar;
+import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -19,7 +20,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.NavUtils;
 import android.util.Log;
@@ -95,32 +95,32 @@ public class MainActivity extends FragmentActivity implements
 	public void onTabSelected(ActionBar.Tab tab,
 			FragmentTransaction fragmentTransaction) {
 		
-		switch(tab.getPosition()){
-			case 0: // Connect tab
-				Fragment connectFragment = new ConnectFragment();
-				getSupportFragmentManager().beginTransaction().replace(R.id.container, connectFragment).commit();
-			break;
-			case 1: // Visualization tab
-				Fragment visualizationFragment = new VisualizationFragment();
-				getSupportFragmentManager().beginTransaction().replace(R.id.container, visualizationFragment).commit();
-			break;
-			case 2: // Activity tab
-				Fragment recongnitionFragment = new ActivityRecognitionFragment();
-				getSupportFragmentManager().beginTransaction().replace(R.id.container, recongnitionFragment).commit();
-			break;			
-			case 3: // Notifications tab
-				Fragment NotificationsFragment = new NotificationsFragment();
-				getSupportFragmentManager().beginTransaction().replace(R.id.container, NotificationsFragment).commit();
-			break;
-			case 4: // Guideline tab
-				Fragment guidelinesFragment = new GuidelinesFragment();
-				getSupportFragmentManager().beginTransaction().replace(R.id.container, guidelinesFragment).commit();
-			break;
-			case 5: // Remote Storage
-				Fragment RemoteStorageFragment2 = new RemoteStorageFragment();
-				getSupportFragmentManager().beginTransaction().replace(R.id.container, RemoteStorageFragment2).commit();
-			break;
-		}
+//		switch(tab.getPosition()){
+//			case 0: // Connect tab
+//				Fragment connectFragment = new ConnectFragment();
+//				getSupportFragmentManager().beginTransaction().replace(R.id.container, connectFragment).commit();
+//			break;
+//			case 1: // Visualization tab
+//				Fragment visualizationFragment = new VisualizationFragment();
+//				getSupportFragmentManager().beginTransaction().replace(R.id.container, visualizationFragment).commit();
+//			break;
+//			case 2: // Activity tab
+//				Fragment recongnitionFragment = new ActivityRecognitionFragment();
+//				getSupportFragmentManager().beginTransaction().replace(R.id.container, recongnitionFragment).commit();
+//			break;
+//			case 3: // Notifications tab
+//				Fragment NotificationsFragment = new NotificationsFragment();
+//				getSupportFragmentManager().beginTransaction().replace(R.id.container, NotificationsFragment).commit();
+//			break;
+//			case 4: // Guideline tab
+////				Fragment guidelinesFragment = new GuidelinesFragment();
+////				getSupportFragmentManager().beginTransaction().replace(R.id.container, guidelinesFragment).commit();
+//			break;
+//			case 5: // Remote Storage
+//				Fragment RemoteStorageFragment2 = new RemoteStorageFragment();
+//				getSupportFragmentManager().beginTransaction().replace(R.id.container, RemoteStorageFragment2).commit();
+//			break;
+//		}
 		
 	}
 

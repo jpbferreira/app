@@ -5,7 +5,7 @@ import java.util.Hashtable;
 import java.util.Set;
 
 import com.mHealthDroid.mhealthpp.R;
-import com.jjoe64.graphview.GraphView.LegendAlign;
+//import com.jjoe64.graphview.GraphView.LegendAlign;
 
 import visualizationManager.VisualizationManager;
 
@@ -141,19 +141,19 @@ public class StartVisualizationActivity extends Activity{
 					vm.setManualYAxisBounds(VisualizationFragment.nameGraph, maxY, minY);
 				
 				vm.setShowLegend(VisualizationFragment.nameGraph, showLegend);
-				if(showLegend){	
-					switch(align){
-						case 1:
-							vm.setLegendAlign(VisualizationFragment.nameGraph, LegendAlign.TOP);
-							break;
-						case 2:
-							vm.setLegendAlign(VisualizationFragment.nameGraph, LegendAlign.MIDDLE);
-							break;
-						case 3:
-							vm.setLegendAlign(VisualizationFragment.nameGraph, LegendAlign.BOTTOM);
-							break;
-					}
-				}			
+//				if(showLegend){
+//					switch(align){
+//						case 1:
+//							vm.setLegendAlign(VisualizationFragment.nameGraph, LegendAlign.TOP);
+//							break;
+//						case 2:
+//							vm.setLegendAlign(VisualizationFragment.nameGraph, LegendAlign.MIDDLE);
+//							break;
+//						case 3:
+//							vm.setLegendAlign(VisualizationFragment.nameGraph, LegendAlign.BOTTOM);
+//							break;
+//					}
+//				}
 				
 				vm.visualizationOnline(VisualizationFragment.nameGraph, deviceSelected, sensorsToVisualize, (int) (2*viewPort));
 //				Intent intent = getIntent();
