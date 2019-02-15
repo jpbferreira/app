@@ -7,7 +7,7 @@ import com.mHealthDroid.mhealthpp.R;
 
 import communicationManager.CommunicationManager;
 import communicationManager.dataStructure.ObjectMetadata.FormatType;
-import communicationManager.datareceiver.DeviceShimmer;
+//import communicationManager.datareceiver.DeviceShimmer;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -60,24 +60,29 @@ public class DeviceConfigurationActivity extends Activity{
 		
 		radioFormat = (RadioGroup) findViewById(R.id.formatRagdioGroup);
 		spinnerRate = (Spinner) findViewById(R.id.spinnerRate);
-		
-		if(typeDevice == ConnectFragment.DEVICE_SHIMMER){
-			setSpinnerShimmer(spinnerRate);
-			LinearLayout formatLayout = (LinearLayout) findViewById(R.id.layout_format);
-			formatLayout.setVisibility(View.VISIBLE);
-			format = ((DeviceShimmer) cm.getDevice(nameDevice)).getFormat();
-			if(format == FormatType.CALIBRATED)
-				radioFormat.check(R.id.radio_calibrated);
-			else
-				radioFormat.check(R.id.radio_uncalibrated);
-			spinnerRate.setSelection(rateToPositionShimmer());
-		}
-		else{
-			setSpinnerMobile(spinnerRate);
-			LinearLayout formatLayout = (LinearLayout) findViewById(R.id.layout_format);
-			formatLayout.setVisibility(View.GONE);
-			spinnerRate.setSelection(rateToPositionMobile());
-		}
+
+		setSpinnerMobile(spinnerRate);
+		LinearLayout formatLayout = (LinearLayout) findViewById(R.id.layout_format);
+		formatLayout.setVisibility(View.GONE);
+		spinnerRate.setSelection(rateToPositionMobile());
+
+//		if(typeDevice == ConnectFragment.DEVICE_SHIMMER){
+//			setSpinnerShimmer(spinnerRate);
+//			LinearLayout formatLayout = (LinearLayout) findViewById(R.id.layout_format);
+//			formatLayout.setVisibility(View.VISIBLE);
+//			format = ((DeviceShimmer) cm.getDevice(nameDevice)).getFormat();
+//			if(format == FormatType.CALIBRATED)
+//				radioFormat.check(R.id.radio_calibrated);
+//			else
+//				radioFormat.check(R.id.radio_uncalibrated);
+//			spinnerRate.setSelection(rateToPositionShimmer());
+//		}
+//		else{
+//			setSpinnerMobile(spinnerRate);
+//			LinearLayout formatLayout = (LinearLayout) findViewById(R.id.layout_format);
+//			formatLayout.setVisibility(View.GONE);
+//			spinnerRate.setSelection(rateToPositionMobile());
+//		}
 
 		Button applyButton = (Button) findViewById(R.id.button_apply);
 		applyButton.setOnClickListener(new OnClickListener() {
@@ -90,11 +95,11 @@ public class DeviceConfigurationActivity extends Activity{
 				else
 					cm.setStoreData(nameDevice, false);
 				
-				if(typeDevice == ConnectFragment.DEVICE_SHIMMER)
-					if(radioFormat.getCheckedRadioButtonId() == R.id.radio_calibrated)
-						((DeviceShimmer) cm.getDevice(nameDevice)).setFormat(FormatType.CALIBRATED);
-					else
-						((DeviceShimmer) cm.getDevice(nameDevice)).setFormat(FormatType.UNCALIBRATED);
+//				if(typeDevice == ConnectFragment.DEVICE_SHIMMER)
+//					if(radioFormat.getCheckedRadioButtonId() == R.id.radio_calibrated)
+//						((DeviceShimmer) cm.getDevice(nameDevice)).setFormat(FormatType.CALIBRATED);
+//					else
+//						((DeviceShimmer) cm.getDevice(nameDevice)).setFormat(FormatType.UNCALIBRATED);
 				
 				double rate;
 				if(typeDevice == ConnectFragment.DEVICE_SHIMMER)

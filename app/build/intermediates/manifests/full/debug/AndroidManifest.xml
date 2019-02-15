@@ -73,8 +73,8 @@
             android:label="@string/select_device2"
             android:theme="@android:style/Theme.Holo.Light.Dialog" >
         </activity>
-        <activity android:name="com.mHealthDroid.mhealthapp.YoutubeActivity" >
-        </activity>
+        <!-- <activity android:name="com.mHealthDroid.mhealthapp.YoutubeActivity"> -->
+        <!-- </activity> -->
 
         <receiver android:name="systemManager.services.ScheduledTask" />
     </application>

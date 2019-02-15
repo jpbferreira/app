@@ -151,13 +151,14 @@ public class ConnectFragment extends Fragment {
 
         	if(cm.getDevice(names.get(0))==null){ 
         		for(int j=0; j<names.size();j++){
-        			if(types.get(j).equals(TypeDevice.Shimmer.toString())){
-        				cm.addDeviceShimmer(getActivity(), names.get(j), true);
-        				cm.setMacAddres(names.get(j), addressess.get(j));
-        			}
-        			else{
-        				cm.addDeviceMobile(getActivity(), names.get(j));
-        			}
+					cm.addDeviceMobile(getActivity(), names.get(j));
+//        			if(types.get(j).equals(TypeDevice.Shimmer.toString())){
+//        				cm.addDeviceShimmer(getActivity(), names.get(j), true);
+//        				cm.setMacAddres(names.get(j), addressess.get(j));
+//        			}
+//        			else{
+//        				cm.addDeviceMobile(getActivity(), names.get(j));
+//        			}
         		}
         	}        			
         }
@@ -297,16 +298,16 @@ public class ConnectFragment extends Fragment {
 					
 				}
 			break;
-			case REQUEST_CONNECT_DEVICE_SHIMMER:
-				if(resultCode==Activity.RESULT_OK){
-					String address = data.getExtras().getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
-					Device d = new Device(nameDeviceIntroduced, TypeDevice.Shimmer, State.DISCONNECTED, address);
-					devices.add(d);
-					devices.notifyDataSetChanged();
-					cm.addDeviceShimmer(getActivity().getApplicationContext(), nameDeviceIntroduced, true);
-					cm.connect(nameDeviceIntroduced, address);
-				}
-			break;
+//			case REQUEST_CONNECT_DEVICE_SHIMMER:
+//				if(resultCode==Activity.RESULT_OK){
+//					String address = data.getExtras().getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
+//					Device d = new Device(nameDeviceIntroduced, TypeDevice.Shimmer, State.DISCONNECTED, address);
+//					devices.add(d);
+//					devices.notifyDataSetChanged();
+//					cm.addDeviceShimmer(getActivity().getApplicationContext(), nameDeviceIntroduced, true);
+//					cm.connect(nameDeviceIntroduced, address);
+//				}
+//			break;
 			case REQUEST_DEVICE_MENU:
 				if(resultCode==Activity.RESULT_OK){
 					if(!cm.containsDevice(nameDeviceSelected)){

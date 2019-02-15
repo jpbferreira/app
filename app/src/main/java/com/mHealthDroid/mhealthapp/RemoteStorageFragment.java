@@ -10,7 +10,7 @@ import com.mHealthDroid.mhealthapp.Device.TypeDevice;
 import com.mHealthDroid.mhealthpp.R;
 
 import communicationManager.CommunicationManager;
-import communicationManager.datareceiver.DeviceShimmer;
+//import communicationManager.datareceiver.DeviceShimmer;
 import remoteStorageManager.RemoteStorageManager;
 import systemManager.SystemManager;
 import android.app.AlertDialog;
@@ -94,10 +94,11 @@ public class RemoteStorageFragment extends Fragment {
 		Set<String> nameDevices = devicesStates.keySet();
 		for(String key: nameDevices){
 			Device d;
-			if(cm.getDevice(key).getClass() == DeviceShimmer.class)
-				d = new Device(key, TypeDevice.Shimmer, State.CONNECTED);
-			else
-				d = new Device(key, TypeDevice.Mobile, State.CONNECTED);
+//			if(cm.getDevice(key).getClass() == DeviceShimmer.class)
+//				d = new Device(key, TypeDevice.Shimmer, State.CONNECTED);
+//			else
+//				d = new Device(key, TypeDevice.Mobile, State.CONNECTED);
+			d = new Device(key, TypeDevice.Mobile, State.CONNECTED);
 			devices.add(d);
 		}
 		

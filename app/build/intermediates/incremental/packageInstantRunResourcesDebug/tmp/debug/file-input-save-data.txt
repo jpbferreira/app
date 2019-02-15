@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Fri Feb 15 13:26:18 BRST 2019
+1.base=/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/assets/debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=activities.arff
+0.set=ASSET
+0.base=/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/assets/debug
+1.path=modeloentrenado.model

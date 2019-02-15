@@ -135,25 +135,25 @@ public class RemoteStorageManager {
 		}
 
 		//Shimmer Device
-		else if (cm.getDevice(deviceName).getClass() == communicationManager.datareceiver.DeviceShimmer.class) {
-
-			//One table more to be uploaded
-			tablesToUpload++;
-
-			//Data acquisition
-			storage.open();
-			this.tableNameShimmerUnits = DBAdapter.TABLE_SHIMMER_UNITS;
-			// Different way to proceed, there are calibrated and uncalibrated data, so its necessary an array
-			ArrayList<ArrayList<String>> data = storage.getShimmerUnitsTable(tableNameShimmerUnits);
-
-			if (!cm.isStoring())
-				storage.close();
-
-			//Message sent to serverThread
-			Message messageToSend = thread.myHandler.obtainMessage(1);
-			messageToSend.obj = data;
-			thread.myHandler.sendMessage(messageToSend);
-		}
+//		else if (cm.getDevice(deviceName).getClass() == communicationManager.datareceiver.DeviceShimmer.class) {
+//
+//			//One table more to be uploaded
+//			tablesToUpload++;
+//
+//			//Data acquisition
+//			storage.open();
+//			this.tableNameShimmerUnits = DBAdapter.TABLE_SHIMMER_UNITS;
+//			// Different way to proceed, there are calibrated and uncalibrated data, so its necessary an array
+//			ArrayList<ArrayList<String>> data = storage.getShimmerUnitsTable(tableNameShimmerUnits);
+//
+//			if (!cm.isStoring())
+//				storage.close();
+//
+//			//Message sent to serverThread
+//			Message messageToSend = thread.myHandler.obtainMessage(1);
+//			messageToSend.obj = data;
+//			thread.myHandler.sendMessage(messageToSend);
+//		}
 	}
 
 	/**
@@ -185,26 +185,26 @@ public class RemoteStorageManager {
 		}
 
 		//Shimmer Device
-		else if (cm.getDevice(deviceName).getClass() == communicationManager.datareceiver.DeviceShimmer.class) {
-
-			//One table more to be uploaded
-			tablesToUpload++;
-			
-			//Data acquisition
-			storage.open();
-			String tableName = cm.getDevice(deviceName).getTableName();
-			this.tableNameSignals = tableName;
-			Hashtable<SensorType, ArrayList<Double>> data = storage
-					.getShimmerSignalsTable(tableNameSignals);
-			if (!cm.isStoring())
-				storage.close();
-
-			//Message sent to serverThread
-			Message messageToSend = thread.myHandler.obtainMessage(2);
-			messageToSend.obj = data;
-			messageToSend.arg1 = SHIMMER_DEVICE;
-			thread.myHandler.sendMessage(messageToSend);
-		}
+//		else if (cm.getDevice(deviceName).getClass() == communicationManager.datareceiver.DeviceShimmer.class) {
+//
+//			//One table more to be uploaded
+//			tablesToUpload++;
+//
+//			//Data acquisition
+//			storage.open();
+//			String tableName = cm.getDevice(deviceName).getTableName();
+//			this.tableNameSignals = tableName;
+//			Hashtable<SensorType, ArrayList<Double>> data = storage
+//					.getShimmerSignalsTable(tableNameSignals);
+//			if (!cm.isStoring())
+//				storage.close();
+//
+//			//Message sent to serverThread
+//			Message messageToSend = thread.myHandler.obtainMessage(2);
+//			messageToSend.obj = data;
+//			messageToSend.arg1 = SHIMMER_DEVICE;
+//			thread.myHandler.sendMessage(messageToSend);
+//		}
 	}
 
 	/**
@@ -236,26 +236,26 @@ public class RemoteStorageManager {
 		}
 
 		//Shimmer Device
-		else if (cm.getDevice(deviceName).getClass() == communicationManager.datareceiver.DeviceShimmer.class) {
-
-			//One table more to be uploaded
-			tablesToUpload++;
-			
-			//Data acquisition
-			storage.open();
-			String tableName = cm.getDevice(deviceName).getMetadataTableName();
-			this.tableNameMetadata = tableName;
-			ArrayList<Hashtable<String, String>> data = storage
-					.getShimmerMetadataTable(tableNameMetadata);
-			if (!cm.isStoring())
-				storage.close();
-
-			//Message sent to serverThread
-			Message messageToSend = thread.myHandler.obtainMessage(3);
-			messageToSend.obj = data;
-			messageToSend.arg1 = SHIMMER_DEVICE;
-			thread.myHandler.sendMessage(messageToSend);
-		}
+//		else if (cm.getDevice(deviceName).getClass() == communicationManager.datareceiver.DeviceShimmer.class) {
+//
+//			//One table more to be uploaded
+//			tablesToUpload++;
+//
+//			//Data acquisition
+//			storage.open();
+//			String tableName = cm.getDevice(deviceName).getMetadataTableName();
+//			this.tableNameMetadata = tableName;
+//			ArrayList<Hashtable<String, String>> data = storage
+//					.getShimmerMetadataTable(tableNameMetadata);
+//			if (!cm.isStoring())
+//				storage.close();
+//
+//			//Message sent to serverThread
+//			Message messageToSend = thread.myHandler.obtainMessage(3);
+//			messageToSend.obj = data;
+//			messageToSend.arg1 = SHIMMER_DEVICE;
+//			thread.myHandler.sendMessage(messageToSend);
+//		}
 
 	}
 

@@ -19,7 +19,7 @@ import communicationManager.dataStructure.ObjectData.SensorType;
 import communicationManager.dataStructure.ObjectMetadata;
 import communicationManager.datareceiver.Device;
 import communicationManager.datareceiver.DeviceMobile;
-import communicationManager.datareceiver.DeviceShimmer;
+//import communicationManager.datareceiver.DeviceShimmer;
 import communicationManager.storage.Storage;
 
 public class CommunicationManager extends Service {
@@ -102,16 +102,16 @@ public class CommunicationManager extends Service {
 	 * @param continuosSync A boolean value defining whether received packets should be checked continuously for the correct start and end of packet.
 	 * @return True in case the device is added susseccefully or false otherwise
 	 */
-	public boolean addDeviceShimmer(Context myContext, String name,	boolean continuosSync) {
-
-		if (!devices.containsKey(name)) {
-			ObjectCommunication oc = new ObjectCommunication(new DeviceShimmer(myContext, name, continuosSync));
-			devices.put(name, oc);
-			return true;
-		} else
-			return false;
-
-	}
+//	public boolean addDeviceShimmer(Context myContext, String name,	boolean continuosSync) {
+//
+//		if (!devices.containsKey(name)) {
+//			ObjectCommunication oc = new ObjectCommunication(new DeviceShimmer(myContext, name, continuosSync));
+//			devices.put(name, oc);
+//			return true;
+//		} else
+//			return false;
+//
+//	}
 
 	/**
 	 * Add a Mobile device to the hashtable of devices
@@ -140,7 +140,7 @@ public class CommunicationManager extends Service {
 
 	/**
 	 * Initialize the variable Storage. It is necessary call this function in case it is wanted to do something related with database 
-	 * @param myContext The UI Activity Context
+	 * @param context The UI Activity Context
 	 */
 	public void CreateStorage(Context context) {
 		if (storage == null)
@@ -198,22 +198,22 @@ public class CommunicationManager extends Service {
 									if (!isStoring())
 										storage.close();
 								break;
-								case DEVICE_SHIMMER2:
-									storage.open();
-									oc.isStoring = true;
-									storage.insertShimmer2(((DeviceShimmer) oc.device).buffer, label, oc.device.getTableName(), cont, true, numSamples);
-									oc.isStoring = false;
-									if (!isStoring())
-										storage.close();
-								break;
-								case DEVICE_SHIMMER3:
-									storage.open();
-									oc.isStoring = true;
-									storage.insertShimmer3(((DeviceShimmer) oc.device).buffer, label, oc.device.getTableName(), cont, true, numSamples);
-									oc.isStoring = false;
-									if (!isStoring())
-										storage.close();
-								break;
+//								case DEVICE_SHIMMER2:
+//									storage.open();
+//									oc.isStoring = true;
+//									storage.insertShimmer2(((DeviceShimmer) oc.device).buffer, label, oc.device.getTableName(), cont, true, numSamples);
+//									oc.isStoring = false;
+//									if (!isStoring())
+//										storage.close();
+//								break;
+//								case DEVICE_SHIMMER3:
+//									storage.open();
+//									oc.isStoring = true;
+//									storage.insertShimmer3(((DeviceShimmer) oc.device).buffer, label, oc.device.getTableName(), cont, true, numSamples);
+//									oc.isStoring = false;
+//									if (!isStoring())
+//										storage.close();
+//								break;
 							}
 						}
 					}
@@ -330,22 +330,23 @@ public class CommunicationManager extends Service {
 
 			String nameTable = devices.get(deviceName).device.getTableName();
 			String nameMetadataTable = devices.get(deviceName).device.getMetadataTableName();
-			if (devices.get(deviceName).device.getClass() == DeviceShimmer.class) {
-				DeviceShimmer ds = (DeviceShimmer) (devices.get(deviceName)).device;
-				if(ds.getShimmerVersion() == 4 || ds.getShimmerVersion() == 3){ // 3 = Shimmer 3, 4 = Shimmer 3R
-					storage.createShimmer3Table(nameTable);
-					storage.createShimmer3TableMetadata(nameMetadataTable);
-				}
-				else{
-					storage.createShimmer2Table(nameTable);
-					storage.createShimmer2TableMetadata(nameMetadataTable);
-				}
-				
-				storage.createShimmerTableUnits();
-				if (storage.isEmptyTableShimmerUnits())
-					storage.fillShimmerTableUnits();
-				
-			} else if (devices.get(deviceName).device.getClass() == DeviceMobile.class) {
+//			if (devices.get(deviceName).device.getClass() == DeviceShimmer.class) {
+//				DeviceShimmer ds = (DeviceShimmer) (devices.get(deviceName)).device;
+//				if(ds.getShimmerVersion() == 4 || ds.getShimmerVersion() == 3){ // 3 = Shimmer 3, 4 = Shimmer 3R
+//					storage.createShimmer3Table(nameTable);
+//					storage.createShimmer3TableMetadata(nameMetadataTable);
+//				}
+//				else{
+//					storage.createShimmer2Table(nameTable);
+//					storage.createShimmer2TableMetadata(nameMetadataTable);
+//				}
+//
+//				storage.createShimmerTableUnits();
+//				if (storage.isEmptyTableShimmerUnits())
+//					storage.fillShimmerTableUnits();
+//
+//			} else if (devices.get(deviceName).device.getClass() == DeviceMobile.class) {
+			if (devices.get(deviceName).device.getClass() == DeviceMobile.class) {
 				storage.createMobileTable(nameTable);
 				storage.createMobileTableMetadata(nameMetadataTable);
 				storage.createMobileTableUnits();
@@ -386,7 +387,7 @@ public class CommunicationManager extends Service {
 	/**
 	 * This function makes that a specific device stop to stream
 	 * If the device's name is wrong the function will trhow an exception
-	 * @param name Is the name assigned to the device
+	 * @param deviceName Is the name assigned to the device
 	 */
 	public void stopStreaming(String deviceName) {
 
@@ -419,19 +420,19 @@ public class CommunicationManager extends Service {
 		storage.open();
 		int i = storage.getMaxIndex(nameTable);
 		i++;
-		if (devices.get(deviceName).device.getClass() == DeviceShimmer.class) {
-			ObjectMetadata mt = ((DeviceShimmer) devices.get(deviceName).device).metadata;
-			mt.firstIndex = i;
-			// Last index and finish time should be empty till the streaming
-			// stop, when will be updated
-			mt.lastIndex = 0;
-			mt.finish = new Time();
-			DeviceShimmer ds = (DeviceShimmer) (devices.get(deviceName)).device;
-			if(ds.getShimmerVersion() == 4 || ds.getShimmerVersion() == 3) // 3 = Shimmer 3, 4 = Shimmer 3R
-				storage.insertShimmer3Metadata(mt, devices.get(deviceName).device.getMetadataTableName());
-			else
-				storage.insertShimmer2Metadata(mt, devices.get(deviceName).device.getMetadataTableName());
-		}
+//		if (devices.get(deviceName).device.getClass() == DeviceShimmer.class) {
+//			ObjectMetadata mt = ((DeviceShimmer) devices.get(deviceName).device).metadata;
+//			mt.firstIndex = i;
+//			// Last index and finish time should be empty till the streaming
+//			// stop, when will be updated
+//			mt.lastIndex = 0;
+//			mt.finish = new Time();
+//			DeviceShimmer ds = (DeviceShimmer) (devices.get(deviceName)).device;
+//			if(ds.getShimmerVersion() == 4 || ds.getShimmerVersion() == 3) // 3 = Shimmer 3, 4 = Shimmer 3R
+//				storage.insertShimmer3Metadata(mt, devices.get(deviceName).device.getMetadataTableName());
+//			else
+//				storage.insertShimmer2Metadata(mt, devices.get(deviceName).device.getMetadataTableName());
+//		}
 		if (devices.get(deviceName).device.getClass() == DeviceMobile.class) {
 			ObjectMetadata mt = ((DeviceMobile) devices.get(deviceName).device).metadata;
 			mt.firstIndex = i;
@@ -458,10 +459,10 @@ public class CommunicationManager extends Service {
 		String nameTable = devices.get(deviceName).device.getTableName();
 		int i = storage.getMaxIndex(nameTable);
 
-		if (devices.get(deviceName).device.getClass() == DeviceShimmer.class) {
-			((DeviceShimmer) devices.get(deviceName).device).metadata.lastIndex = i;
-			mt = ((DeviceShimmer) devices.get(deviceName).device).metadata;
-		}
+//		if (devices.get(deviceName).device.getClass() == DeviceShimmer.class) {
+//			((DeviceShimmer) devices.get(deviceName).device).metadata.lastIndex = i;
+//			mt = ((DeviceShimmer) devices.get(deviceName).device).metadata;
+//		}
 		if (devices.get(deviceName).device.getClass() == DeviceMobile.class) {
 			// LastIndex get updated. With finish time happens the same but in
 			// stopStreaming of Device
@@ -513,22 +514,22 @@ public class CommunicationManager extends Service {
 			oc.isStoring = true;
 			int numSamples = oc.device.getNumberOfSamples();
 			String nameTable = oc.device.getTableName();
-			if (oc.device.getClass() == DeviceShimmer.class) {
-				int cont = ((DeviceShimmer) oc.device).contBuffer + 1;
-				DeviceShimmer ds = (DeviceShimmer) (devices.get(deviceName)).device;
-				if(ds.getShimmerVersion() == 4 || ds.getShimmerVersion() == 3){ // 3 = Shimmer 3, 4 = Shimmer 3R
-					if (cont % numSamples == 0) // we check if the buffer is filled
-						storage.insertShimmer3(((DeviceShimmer) oc.device).buffer, label, nameTable, cont, true, numSamples);
-					else
-						storage.insertShimmer3(((DeviceShimmer) oc.device).buffer, label, nameTable, cont, false, numSamples);
-				}
-				else{
-					if (cont % numSamples == 0) // we check if the buffer is filled
-						storage.insertShimmer2(((DeviceShimmer) oc.device).buffer, label, nameTable, cont, true, numSamples);
-					else
-						storage.insertShimmer2(((DeviceShimmer) oc.device).buffer, label, nameTable, cont, false, numSamples);
-				}
-			}
+//			if (oc.device.getClass() == DeviceShimmer.class) {
+//				int cont = ((DeviceShimmer) oc.device).contBuffer + 1;
+//				DeviceShimmer ds = (DeviceShimmer) (devices.get(deviceName)).device;
+//				if(ds.getShimmerVersion() == 4 || ds.getShimmerVersion() == 3){ // 3 = Shimmer 3, 4 = Shimmer 3R
+//					if (cont % numSamples == 0) // we check if the buffer is filled
+//						storage.insertShimmer3(((DeviceShimmer) oc.device).buffer, label, nameTable, cont, true, numSamples);
+//					else
+//						storage.insertShimmer3(((DeviceShimmer) oc.device).buffer, label, nameTable, cont, false, numSamples);
+//				}
+//				else{
+//					if (cont % numSamples == 0) // we check if the buffer is filled
+//						storage.insertShimmer2(((DeviceShimmer) oc.device).buffer, label, nameTable, cont, true, numSamples);
+//					else
+//						storage.insertShimmer2(((DeviceShimmer) oc.device).buffer, label, nameTable, cont, false, numSamples);
+//				}
+//			}
 
 			if (oc.device.getClass() == DeviceMobile.class) {
 				int cont = ((DeviceMobile) oc.device).contBuffer + 1;
@@ -550,7 +551,7 @@ public class CommunicationManager extends Service {
 	 * It connects the external device with the Android device via Bluetooth
 	 * If the device's name is wrong the function will throw a null exception.
 	 * @param deviceName Is the name assigned to the device
-	 * @param adress Is the device's MAC adress 
+	 * @param address Is the device's MAC adress
 	 */
 	public void connect(String deviceName, String address) {
 

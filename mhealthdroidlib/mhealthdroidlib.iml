@@ -123,11 +123,9 @@
     <orderEntry type="library" name="Gradle: __local_aars__:/home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/libs/wekaSTRIPPED.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2@jar" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.17@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/libs/ShimmerDriver_v2.6.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: org.checkerframework:checker-compat-qual:2.5.2@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/home/jpbferreira/Documentos/IC/mHealthApp/mhealthdroidlib/libs/ShimmerAndroidIntstrumentDriver_v2.6.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.2.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:27.0.1-android@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.2.0@jar" level="project" />
   </component>
 </module>

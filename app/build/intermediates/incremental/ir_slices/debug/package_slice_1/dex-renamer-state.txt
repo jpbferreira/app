@@ -1,0 +1,4 @@
+#Fri Feb 15 13:51:06 BRST 2019
+base.0=/home/jpbferreira/Documentos/IC/mHealthApp/app/build/intermediates/transforms/dexMerger/debug/19
+path.0=classes.dex
+renamed.0=classes.dex
